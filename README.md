@@ -71,6 +71,12 @@ roslaunch ar1_description amcl_localization.launch
 
 - This launch file contain robot_state_publisher, joint_state_publisher, world file, map_server, rviz config, local planner, and micvision. Local planner itself contains all information of global costmap, local costmap and base_local params files. Now the bot is ready to move autonomously.
 
+- After launching this file give a minute for lidar to settle and use following command to localize the bot.
+
+```bash
+rosservice call /Startlocalization
+```
+
 #### Sub Goal 3
 
 - Add footprint of the robot. Also frequencies of the map can be controlled.
