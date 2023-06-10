@@ -1,0 +1,4 @@
+<launch>
+  <node name="navigation" pkg="navigation_goals" type="navigation" output="screen"/> 
+  <node name="marker_rviz" pkg="navigation_goals" type="marker_rviz" output="screen"/> 
+</launch>
