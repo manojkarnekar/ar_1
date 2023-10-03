@@ -1,4 +1,4 @@
-# ar_1
+# AMR Simulation
 
 ## Instructions
 
